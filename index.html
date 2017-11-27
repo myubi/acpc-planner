@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Crossing Planner</title>
+    <link rel="stylesheet" href="css/planner.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.20/fabric.min.js"></script>
+    <script type="text/javascript" src="js/planner.js"></script>
+  </head>
+  <body>
+    <h1>Animal Crossing: Pocket Camp Planner</h1>
+      <div class="tabs-select">
+        <input id="tab-one" type="radio" name="grp" checked="checked"/>
+        <label for="tab-one"><img class="label-icon" src="img/icons/Furniture_Bed_Icon.png"/></label>
+        <div>
+        <button id="rectangle">Add rectangle</button>
+        <button id="circle">Add circle</button>
+        <button id="remove">Remove selected object</button>
+        </div>
+
+        <input id="tab-two" type="radio" name="grp" />
+        <label for="tab-two"><img class="label-icon" src="img/icons/Furniture_Chair_Icon.png"/></label>
+        <div>
+        </div>
+
+        <input id="tab-three" type="radio" name="grp" />
+        <label for="tab-three"><img class="label-icon" src="img/icons/Furniture_Electronic_Icon.png"/></label>
+        <div>
+        </div>
+      </div>
+		<canvas id="c"></canvas>
+  </body>
+</html>
